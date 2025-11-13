@@ -1,4 +1,4 @@
-# ini-nim
+# ininim
 Yet another .ini parser. ([Original](https://xmonader.github.io/nimdays/day05_iniparser.html))
 
 ## How to use

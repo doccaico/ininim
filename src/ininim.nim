@@ -1,3 +1,3 @@
-import ini/utils
+import ininim/utils
 
 export utils
