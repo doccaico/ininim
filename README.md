@@ -19,9 +19,9 @@ var d = parseIni(sample)
 doAssert(d.countSection() == 2)
 
 doAssertRaises(ValueError):
-d.setProperty("notfound", "appname", "newappname")
-discard d.getProperty("notfound", "appname")
-d.deleteProperty("notfound", "name")
+  d.setProperty("notfound", "appname", "newappname")
+  discard d.getProperty("notfound", "appname")
+  d.deleteProperty("notfound", "name")
 
 doAssert(d.getProperty("general", "appname") == "configparser")
 doAssert(d.getProperty("general", "version") == "0.1")
